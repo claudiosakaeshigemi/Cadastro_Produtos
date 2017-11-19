@@ -66,7 +66,7 @@ public class ProdutosBd  extends SQLiteOpenHelper{
             produto.setDescricao(cursor.getString(2));
             produto.setQuantidade(cursor.getInt(3));
 
-            produtos.add(produto)
+            produtos.add(produto);
         }
         return  produtos;
     }
